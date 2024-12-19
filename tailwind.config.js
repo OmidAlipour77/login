@@ -8,11 +8,16 @@ export default {
         './resources/**/*.blade.php',
         './resources/**/*.js',
         './resources/**/*.vue',
+        './resources/js/**/*.jsx',
     ],
     theme: {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            },
+            colors: {
+                primary: "#691B89",
+                "light-primary": "rgba(105,27,137,0.7)",
             },
         },
     },
