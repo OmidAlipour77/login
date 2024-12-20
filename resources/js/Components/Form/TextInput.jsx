@@ -13,7 +13,7 @@ export default function TextInput({label, error, type = "text", ...props}) {
 
             <input
                 type={type}
-                className={`${errorClass} w-full p-3 bg-white text-gray-800 rounded-lg focus:outline-none focus:ring-1 focus:ring-light-primary focus:shadow-light-primary focus:shadow-sm  focus:border-transparent`}
+                className={`${errorClass} w-full p-2 bg-white text-gray-800 rounded-lg focus:outline-none focus:ring-1 focus:ring-light-primary focus:shadow-light-primary focus:shadow-sm  focus:border-transparent`}
                 {...props}
                 value={props?.value ?? ''}
             />

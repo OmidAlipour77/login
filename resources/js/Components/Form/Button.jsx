@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from '@inertiajs/react';
 
 export default function Button({className="", type = 'button', variant = 'primary', href, children, onClick, ...props }) {
-    const baseStyles = 'w-full text-white font-semibold py-3 rounded-lg transition duration-200';
+    const baseStyles = 'w-full text-white font-semibold py-2 rounded-lg transition duration-200';
 
     const variantStyles = {
         primary: 'bg-primary hover:bg-purple-900',

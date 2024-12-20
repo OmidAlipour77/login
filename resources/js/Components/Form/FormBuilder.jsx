@@ -11,7 +11,7 @@ const FormBuilder = ({ fields, onSubmit,buttonText }) => {
     } = useForm();
 
     return (
-        <form noValidate={true} onSubmit={handleSubmit(onSubmit)} className={'space-y-7'}>
+        <form noValidate={true} onSubmit={handleSubmit(onSubmit)} className={'space-y-6'}>
             {fields.map(({ name, label, type, placeholder,rules }) => (
                     <Controller
                         key={`item_${name}`}
